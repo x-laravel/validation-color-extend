@@ -1,0 +1,32 @@
+{
+    "name": "x-laravel/validation-color-extend",
+    "description": "Color validation extend package for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehmet ÖĞMEN",
+            "email": "www@mehmetogmen.com.tr",
+            "homepage": "https://www.mehmetogmen.com.tr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "XLaravel\\ValidationColorExtend\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "XLaravel\\ValidationColorExtend\\Providers\\ValidationColorExtendServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
